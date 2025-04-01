@@ -1,16 +1,16 @@
 export function Footer() {
     return (
-        <footer className=" text-black py-12 md:py-8 border-t border-gray-700">
+        <footer className=" bg-gray-800 text-white py-12 md:py-8 border-t border-gray-700">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row items-center justify-between">
-                    <div className="text-center md:text-left text-sm leading-loose text-muted-foreground">
+                    <div className="text-center md:text-left text-sm leading-loose text-white">
                         <p className="text-lg font-semibold mb-2 ">
                             Built with love by
                             <a
                                 href="#"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="text-indigo-600 font-medium  hover:text-accent-foreground underline underline-offset-4 mx-1"
+                                className="text-[#FF5C8A] font-medium  hover:text-accent-foreground underline underline-offset-4 mx-1"
                             >
                                 FAD
                             </a>

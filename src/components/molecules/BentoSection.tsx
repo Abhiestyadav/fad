@@ -225,7 +225,7 @@ export function DatingSiteGrid() {
 
 
 
-            <MotionDiv className="border-indigo-500 p-6 rounded-3xl" variants={itemVariants}>
+            <MotionDiv className="border-indigo-500 p-6 rounded-3xl bg-slate-200" variants={itemVariants}>
                 <h2 className="text-3xl font-bold mb-6">
                     Keep your
                     <br />

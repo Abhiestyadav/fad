@@ -2,7 +2,7 @@ import React from 'react'
 import HearoSection from '../molecules/HearoSection'
 import { Separator } from '@/components/ui/separator'
 import { DatingSiteGrid }  from '@/components/molecules/BentoSection'
-import { Footer } from '@/components/molecules/Footer'
+
 function Main() {
   return (
     <div>
@@ -12,7 +12,7 @@ function Main() {
       <Separator />
       <DatingSiteGrid />
       <Separator />
-      <Footer/>
+ 
     </div>
   )
 }

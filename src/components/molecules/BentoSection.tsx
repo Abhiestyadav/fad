@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { ArrowRight, ArrowUp, Check } from "lucide-react"
 import { useInView } from "react-intersection-observer"
-
+import Link from "next/link"
 const MotionDiv = motion.div
 
 export function DatingSiteGrid() {
@@ -56,9 +56,11 @@ export function DatingSiteGrid() {
                     <p className="text-4xl font-bold text-indigo-600 mt-2">quicker.</p>
                 </div>
                 <div>
-                    <button className="bg-[#ffd166] text-black px-6 py-3 rounded-full font-medium flex items-center gap-2 hover:bg-[#ffda85] transition-colors">
-                        Create Profile <ArrowRight size={16} />
-                    </button>
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSds5PFQ4fUe2i1T8AHqv9AcFsysNF-4jA0Kh3hpgjfvI8HNUA/viewform">
+                        <button className="bg-[#ffd166] text-black px-6 py-3 rounded-full font-medium flex items-center gap-2 hover:bg-[#ffda85] transition-colors">
+                            Create Profile <ArrowRight size={16} />
+                        </button>
+                    </Link>
                 </div>
             </MotionDiv>
 

@@ -20,7 +20,7 @@ export function Footer() {
                         </p>
                     </div>
                     <div className="flex items-center justify-center space-x-6 mt-4 md:mt-0">
-                        <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="text-pink-700 hover:text-accent-foreground">
+                        <a href="https://www.instagram.com/fad_find_a_date/" target="_blank" rel="noreferrer" className="text-pink-700 hover:text-accent-foreground">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="20"
